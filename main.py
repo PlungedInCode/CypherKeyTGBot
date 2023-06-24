@@ -1,8 +1,11 @@
+import asyncio
+
 from bot.bot_main import Bot
 
-TOKEN = '6259119388:AAFXkg3c_dSRBZjFgj7XWp9jgVCjukuCgwc'
+TOKEN = '6162380761:AAFa4MXFL-_Glk1mraZk8RYelRlI3Ruq8h4'
 DB_FILE = "passwords.db"
 
 if __name__ == '__main__':
     bot = Bot(TOKEN, DB_FILE)
-    bot.start_bot()
+    asyncio.run(bot.start_bot())
+    # bot.start_bot()

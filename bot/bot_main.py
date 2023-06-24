@@ -1,6 +1,3 @@
-import asyncio
-
-
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackContext, CallbackQueryHandler
 
@@ -148,4 +145,3 @@ class Bot:
             update.callback_query.message.edit_text(text=DATA_DELETED_MESSAGE.format(login, service))
         else :
             update.callback_query.message.edit_text(text=CANCLED_MESSAGE)
-        
