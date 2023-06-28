@@ -7,5 +7,5 @@ DB_FILE = "passwords.db"
 
 if __name__ == '__main__':
     bot = Bot(TOKEN, DB_FILE)
-    asyncio.run(bot.start_bot())
-    # bot.start_bot()
+    # asyncio.run(bot.start_bot())
+    bot.bot.run_polling()

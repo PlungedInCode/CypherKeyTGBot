@@ -15,6 +15,8 @@ NO_MESSAGE = "НЕТ"
 CANCLED_MESSAGE = "Операция отменена"
 NO_KEY_MESSAGE = "Вы пытаетесь получить зашифрованный пароль без ключа расшифровки."
 
+MESSAGE_DELETED = "Сообщение с данными {} для сервиса {} было удалено."
+
 
 DATA_UPDATE_ACCEPTED = "data_update_accepted"
 DATA_DELETE_ACCEPTED = "data_delete_accepted"
